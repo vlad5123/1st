@@ -9,3 +9,10 @@ def perform_calculation(n):
 
 result = perform_calculation(1000000)
 print(result)
+
+def test_calculation():
+    result = perform_calculation(1000000)
+    expected_result = 499999500000
+    assert result == expected_result
+
+test_calculation()
