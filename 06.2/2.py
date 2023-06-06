@@ -7,5 +7,5 @@ def perform_calculation(n):
     return result
 
 
-result = perform_calculation(2000000)
+result = perform_calculation(1000000)
 print(result)
